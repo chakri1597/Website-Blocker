@@ -25,7 +25,7 @@ def remove():
                     file.write(line)
                     db.delete(rm_site)      #Deleting from Blocked sites data
 
-            file.truncate()                 # Closing the file
+            
 
 
         e1.delete(0, END)
